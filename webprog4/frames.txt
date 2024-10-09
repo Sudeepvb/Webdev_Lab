@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Example of HTML Frames using row attribute</title> 
+    </head> 
+<!--Frameset will not use body tag because each frame is a seperate html page with body-->
+    <frameset cols = "20%, 60%, 20%"> 
+        <frame name = "left" src="contentFrame.html" /> 
+        <frame name = "main" src="mainFrame.html" /> 
+        <frame name = "right" src="remarkFrame.html" /> 
+        <noframes> 
+            <body>The browser you are working does not support frames.</body> 
+        </noframes> 
+    </frameset> 
+
+</html> 
